@@ -18,7 +18,6 @@ def index():
     if request.method == "POST":
         details = request.form
         Name = details['Name']
-        logging.info(Name)
         Number = details['Number']
         Age = details['Age']
         Location = details['Location']
